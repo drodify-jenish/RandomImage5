@@ -3,35 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activa Scooter Product Detail</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <style>
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+          body, h1, h2, h4, p {
+            margin: 0;
+            padding: 0;
+        }
         body {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 20px;
-            padding: 20px;
+            min-height: 100vh;
+            background-color: #fff;
+            font-family: 'Open Sans', sans-serif;
+            color: #333;
         }
         img {
-            width: 300px; /* Set image width */
+            width: 100%; /* Set image width */
             height: auto; /* Maintain aspect ratio */
             border-radius: 8px; /* Optional: Adds rounded corners to images */
         }
         .product-details {
             text-align: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 100%;
+
+            transition: box-shadow 0.3s ease;
+        }
+        h1, h2 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        h1 {
+            color: #d10000;
+            font-size: 50px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #555;
+            margin-bottom: 15px;
+        }
+        h4 {
+            font-weight: normal;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Activa Scooter Product Detail</h1>
-    <img src="assets/activa.jpg" alt="Activa Scooter Image">
+    <h1>RED HOT DEAL!</h1>
+    <img src="assets/merry.jpg" alt="Bottle Image">
     <div class="product-details">
-        <h2>Model: Activa 6G</h2>
-        <p>Description: Introducing the Activa 6G – a perfect blend of style, performance, and reliability. Designed for urban commuters, this iconic scooter offers effortless maneuverability and exceptional fuel efficiency, making every ride a breeze. </p>
-        <p>Price: $1,999.99</p>
-        <p>Engine: 109.51 cc, Single Cylinder, 4-stroke, SI Engine</p>
-        <p>Fuel Tank Capacity: 5.3 Liters</p>
+        <h2>SPECIAL PURCHASE</h2>
+        <p><h4>Description: The Merry and Bright sale is here 2 wild bird food at 10$, Ace Wild Bird Food 20lb</h4></p>
         <!-- Add more details here as needed -->
     </div>
 </body>
